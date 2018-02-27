@@ -1,8 +1,8 @@
 
 == Apache堅牢化 ==
-* Update regularly
-* Disable directory listing
-* Secure the communication with the server by generating and using SSL certificates
+* 定期的にアップデートする
+* ディレクトリのリスト化を無効にする
+* SSL証明を生成、使用しサーバの通信をセキュアにする。
 * Disable unnecessary modules
 ** Good candidates for this are: ''userdir'', ''suexec'', ''cgi/cgid'', ''include'', ''autoindex''
 * Run the daemon as a separate user and group
@@ -14,4 +14,5 @@
 * Configure other settings like ''TimeOut'', ''MaxClients'', ''KeepAliveTimeout'', ''LimitRequestFields'', ''LimitRequestFieldSize'' in order to prevent DoS attacks
 * Enable and configure proper logging
 * Modify server banner
+
 
