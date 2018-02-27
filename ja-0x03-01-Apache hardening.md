@@ -2,7 +2,7 @@
 == Apache堅牢化 ==
 * 定期的にアップデートする
 * ディレクトリのリスト化を無効にする
-* SSL証明を生成、使用しサーバの通信をセキュアにする。
+* SSL証明を生成、その証明書を使用することでサーバの通信をセキュアにする。
 * Disable unnecessary modules
 ** Good candidates for this are: ''userdir'', ''suexec'', ''cgi/cgid'', ''include'', ''autoindex''
 * Run the daemon as a separate user and group
