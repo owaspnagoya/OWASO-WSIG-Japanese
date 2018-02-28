@@ -1,5 +1,6 @@
+# PHP hardening
 * 常に最新にする
-* 
+
 
 * Update regularly
 * Don’t install PHP as a CGI binary
