@@ -24,3 +24,11 @@ How often should the backup be performed? It all depends on how often the instan
 It’s a good practice to keep multiple backups and have them time stamped. This is because a breach might not be noticed immediately and a clean recovery can only be performed from a backup which is several iterations old. 
 
 Verifying that the backup is functional is part of the process. A backup that does not allow quick and full recovery is useless. The idea is to have a clean server and perform a full recovery from the backup, then check all the functionality and make sure nothing is missing.
+
+=== Automation ===
+The steps above are manual and labor intensive. There is a full list of plugins that can help this process: https://wordpress.org/plugins/tags/backup
+
+The one free alternative offering full backup capabilities that stands out of the list is [https://wordpress.org/plugins/backwpup/ BackWPup]. The free version can be used to save your complete installation including /wp-content/ and push it to an external Backup Service, like Dropbox, S3, FTP (not a good idea) and many more. 
+
+From a security perspective, it’s worth noticing that an attacker who compromised the installation may be able to retrieve credentials and access the remote location of the backups, thus being able to manipulate or delete them. As a good precaution, on the remote side where the backups are stored, an independent process should take the backups and move them to a location inaccessible from the WordPress installation.
+
