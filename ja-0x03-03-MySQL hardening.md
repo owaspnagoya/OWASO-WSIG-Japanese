@@ -19,3 +19,5 @@ There is an entire [https://www.owasp.org/index.php/OWASP_Backend_Security_Proje
 ** Rename root account
 ** Delete unused users and databases
 ** Remove installation history
+
+A PHP security checker is available [https://github.com/sektioneins/pcc here]. This is a one-page php file designed to analyze PHP configuration and rank the findings based on severity.
