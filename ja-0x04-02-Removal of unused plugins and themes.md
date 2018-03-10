@@ -1,7 +1,11 @@
 
-== Removal of unused plugins and themes ==
-Depending on the server configuration, the files in the WordPress folder can be accessed from the Internet regardless of whether they are used or not. Even if a plugin is disabled, the files are still there and they are accessible from the Internet.
+# 未使用のプラグインとテーマの削除
 
-When a new vulnerability is discovered, the attackers write scripts to look for the vulnerable files. Knowing the location of vulnerable plugins increases their chances of infiltrating a vulnerable instance. 
+サーバの設定次第では、WordPressフォルダ内のファイルは使用の有無にかかわらずインターネットからアクセスできます。
+プラグインが無効になっていても、ファイルが存在することで、アクセスできてしまいます。
 
-Any plugins and themes that are not actively used must be deleted. 
+新しい脆弱性が発見されると、攻撃者たちは脆弱なファイルを探すスクリプトを作成します。
+脆弱なプラグインの場所を知ることは、侵入する機会を与えることになります。
+
+あまり利用されないプラグインやテーマは、削除しなくてはならない。
+
