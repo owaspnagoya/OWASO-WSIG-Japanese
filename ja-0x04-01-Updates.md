@@ -1,5 +1,9 @@
 
-== Updates ==
-It is of vital importance to keep WordPress core, plugins and themes updated. Once an update is released, it needs to be applied as soon as possible to close any security holes. 
+# アップデート
 
-Functional problems with updates must be considered. It is possible that an update will break some of the functionality so a backup is recommended before updating the core. 
+WordPress本体、プラグイン、テーマをアップデートし続けることがとてもに重要です。
+アップデートがリリースされた、セキュリティホールを塞ぐため、できるだけ速やかに適用することが必要です。
+
+アップデートには、機能上の問題点を意識する必要があります。
+アップデートによっては一部の機能が動作しなくなる場合があるため、必ずアップデート前のWordPress本体をバックアップすることを勧めます。
+
