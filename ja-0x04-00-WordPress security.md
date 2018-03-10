@@ -1,7 +1,12 @@
 
-= WordPress security =
-There are three main components of WordPress that need to be considered from a security perspective when implementing the solution.
 
-* Core – the basic default installation files that provide most of the functionality 
-* Plugins – special written code to improve and extend the basic functionality
-* Theme – the presentation layer which may come with some limited extended functionality
+# WordPress セキュリティ
+
+セキュリティの観点から検討が必要なWordPressの3つのメインコンポーネントがあります。
+
+* WordPress本体 - 基本的機能を提供するデフォルトインストールされたファイル
+
+* プラグイン - 基本機能の向上や拡張のために書かれたプログラム
+
+* テーマ - 表示デザインを拡張する機能
+
