@@ -1,21 +1,21 @@
+# ユーザの役割と正しい使い方
 
-== User roles and proper usage ==
-Understanding the roles and properly assigning them to users is essential in the segregation of duties process. 
+権限を理解しユーザへの正しい割当をすることは、業務権限の分離に重要です。
 
-The WordPress roles are:
+WordPressの権限は
 
-* Super Admin – somebody with access to the site network administration features and all other features
-* Administrator – somebody who has access to all the administration features within a single site
-* Editor – somebody who can publish and manage posts including the posts of other users
-* Author – somebody who can publish and manage their own posts
-* Contributor – somebody who can write and manage their own posts but cannot publish them
-* Subscriber – somebody who can only manage their profile
+* 特権管理者(Super Admin) – サイトのネットワーク管理機能へのアクセスおよび他のすべての機能を持つ管理者
+* 管理者(Administrator) – 1つのサイト内のすべての管理機能にアクセスできるユーザー
+* 編集者(Editor) – 他のユーザーの投稿を含む投稿を公開し管理できるユーザー
+* 投稿者(Author) – 自分の投稿を公開し管理できるユーザ
+* 寄稿者(Contributor) – 自分の投稿を書いて管理することはできるが、投稿することができないユーザ
+* 購読者(Subscriber) – 自分のプロフィールのみを管理できるユーザ
 
-The least privilege principle must be considered when assigning roles. 
+権限割当には、原則最小特権を考えることが必要です。
 
-A full list of privileges and a comparison between roles is available at http://codex.wordpress.org/Roles_and_Capabilities. 
+役割ごとの全権限一覧の比較は、http://codex.wordpress.org/Roles_and_Capabilities
 
-Supporting plugins:
+サポートするプラグイン
 
 * [https://wordpress.org/plugins/members/ Members Plugin]
 * [https://wordpress.org/plugins/role-scoper/ Role Scoper Plugin]
