@@ -1,31 +1,36 @@
+## プラグインとテーマのセキュリティ
 
-== Plugins & Themes Security ==
-Plugins and themes are a great addition to the functionality offered by the WordPress core. WordPress’ success is based on these elements. It’s easy to develop a new theme, add new functions with plugins. This ease of development comes with the security downside. In the rush for functionality, the developers often forget about security. Looking at the [https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=wordpress CVE list for WordPress] it’s worth noticing that in the past years most of the security defects are affecting the plugins and themes and not WordPress core.
+プラグインとテーマは、WordPressコアによって提供される優れた追加機能です。
+WordPressの成功はこれらの要素が基盤にあります。
+新しい機能をテーマを開発したり、新しい機能をプラグインで追加することは簡単です。
+しかし、容易な開発は、セキュリティの欠点につながります。
+機能性を追求するあまり、開発者はたびたびセキュリティを忘れてしまいます。
+[WorpPressのCVEリスト](https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=wordpress)を見てみると、セキュリティ上の欠陥のほとんどが、WordPress本体ではなく、プラグインやテーマが影響を与えていることに注意する必要があります。
 
-Developing on top of WordPress should be regarded as a regular development job and follow a standard secure development lifecycle. Concrete action items for this chapter include source code review and penetration testing of plugins and themes.
+WordPressでの開発は、正規な開発作業として、標準的なセキュア開発のライフサイクルに沿って行うべきです。
+ここでの具体的な手法には、テーマやプラグインのソースコードレビューやペネトレーションテストを取り入れています。
 
-When choosing to use an already developed plugin by a 3<sup>rd</sup> party, a security audit should be performed. Good differentiators for available plugins are:
+サードパーティーによって開発されたプラグインを利用する場合は、セキュリティ監査を行うべきです。
+利用できるプラグインの優れた見極めは以下の通りです。
 
-* Publication in the official plugin store at https://wordpress.org/plugins/
-* User ratings and comments
-* Version number (is it a young plugin/theme or has it faced the challenges of time?)
-* Last update 
-* Update frequency 
-* Compatibility with the current version of the WordPress core
++ 公式プラグインストア[https://wordpress.org/plugins/](https://wordpress.org/plugins/)での発表
++ ユーザの評価とコメント
++ 最終更新
++ 更新周期
++ 現行バージョンのWordPress本体との互換性
 
-In order to perform a source code audit, the following tools can be used:
+ソースコード監査を行うには、次のツールが使用できます。
 
-* [http://rips-scanner.sourceforge.net/ RIPS]
-* [http://www.program-transformation.org/PHP/PhpSat PHP-sat]
-* [http://www.scovetta.com/yasca.html Yasca]
-* [http://resources.infosecinstitute.com/finding-bugs-in-php-using-grep/ Manual analysis using grep], [https://grepbugs.com/ GrepBugs]
+* [RIPS](http://rips-scanner.sourceforge.net/)
+* [PHP-sat](http://www.program-transformation.org/PHP/PhpSat) 
+* [Yasca](http://www.scovetta.com/yasca.html) [現状のURL] https://linuxsecurity.expert/tools/yasca/ 
+* [Manual analysis using grep](http://resources.infosecinstitute.com/finding-bugs-in-php-using-grep/) , [GrepBugs](https://grepbugs.com/) 
 
-Things to pay extra attention during the source code audit:
+ソースコード監査において、特別に注意すべき箇所は以下の通りです。
 
-* Obfuscated code
-* BASE64 encode function
-* System call functions (exec, passthru, system, shell_exec, etc.)
-* PHP code execution (eval, assert, preg_replace, etc.)
-* Information disclosure functions (phpinfo, getenv, getmygid/pid/uid, etc.)
-* Filesystem functions (fopen, bz/gzopen, chgrp/own/mod, etc.)
-
+* 難読化されたソースコード
+* BASE64エンコード部分
+* システムコール (exec, passthru, system, shell_exec, など)
+* PHPコードの実行 (eval, assert, preg_replace, など)
+* 情報の開示機能 (phpinfo, getenv, getmygid/pid/uid, など)
+* ファイルシステムの操作 (fopen, bz/gzopen, chgrp/own/mod, など)
