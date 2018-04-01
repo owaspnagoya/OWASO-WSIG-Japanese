@@ -6,7 +6,7 @@
 バックアップには何を含める必要がありますか？
 
 * WordPressファイル
-  * WordPress 本体(コア)
+  * WordPress 本体(コア)
   * WordPress プラグイン
   * WordPress テーマ
   * イメージ（画像）ファイル
