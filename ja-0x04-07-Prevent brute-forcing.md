@@ -1,11 +1,10 @@
 # ブルートフォース対策
 
-ブルートフォースは攻撃者にとってとても簡単な方法です。General Security chapterで説明したとおり、ブルートフォース対策は、強力なパスワードを設定することです。それとは別に、追加の保護をCAPTCHAで付け足すことができます。
+ブルートフォースは攻撃者にとってとても簡単な方法です。General Security chapterで説明したとおり、ブルートフォース対策は、強力なパスワードを設定することです。それとは別に、追加の保護を[CAPTCHA](https://ja.wikipedia.org/wiki/CAPTCHA)で付け足すことができます。
 
-Brute-forcing is theeasy way in for an attacker. General Security chapter, a prerequisite for preventing bruteforcing is to have strong passwords. Apart from that, an additional layer of protection can be added in the form of CAPTCHA.
+ひとつ良いプラグインとしては、[Google Captcha（reCAPTCHA）](https://wordpress.org/plugins/google-captcha/)です。このプラグインの優れた点は、登録やコメントのような箇所へも追加の保護を付け足すことができることです。
 
-One good plugin candidate is Google Captcha (reCAPTCHA). The advantage of this plugin is that it can be used to add the extra layer of protection on other areas as well (like registration and comments).
+CAPTCHAは決して完璧な対策ではありません。1回のチャレンジにつき数セントの料金でリアルタイムCAPTCHAを解読するサービスがあります。
+このようなサービスであっても、CAPTCHAの解読に数秒はかかるため、この種の攻撃は不可能になります。
 
-CAPTCHA is not a perfect solution by any means. There are services offering real-time CAPTCHA solving for a few cents per challenge. However it takes seconds to solve a CAPTCHA even for a good service like this, thus this sort of attack becomes unfeasible.
-
-Another preventive measure is to lock-out accounts after a series of failed attempts. There is no plugin at the moment that can lock a user after several failed attempts for a period of time, there are plugins blocking IP addresses that are brute-forcing the login mechanism. This approach is not the best when dealing with distributed attacks.
+もう一つの予防手段として、連続した試行の失敗の後にアカウントをロックすることです。現時点では、一定の間に試行の失敗でユーザをロックするプラグインはありませんが、ログインに対してブルートフォース攻撃を仕掛けるIPアドレスをブロックするプラグインはあります。分散型の攻撃に対処するにはベストな方法ではありません。
