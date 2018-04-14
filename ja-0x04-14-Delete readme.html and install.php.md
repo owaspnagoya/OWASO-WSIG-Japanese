@@ -1,4 +1,4 @@
-##readme.html と install.phpの削除
+## readme.html と install.phpの削除
 
 readme.htmlは、機密情報をサイトの外部に漏らしうることになり、機能的に不要です。
 install.phpは、WordPressインストール用のファイルが残ったものですが、（WordPressインストール後）再度、使われるべきではありません。install.phpは、（WordPressインストール後）不要であり、削除すべきです。
