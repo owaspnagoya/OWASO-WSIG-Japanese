@@ -9,23 +9,21 @@ WordPressがCMSとして変化するに従い、コメントが不要な場合�
 不要であれば機能を無効化します。
 
 管理者でログインし、
-新規の投稿は
-［設定］→［ディスカッション］"Allow people to post comments on new articles"のチェックを外す
-For new posts go to Settings -> Discussion and uncheck "Allow people to post comments on new articles".
-For existing posts, 
-go to Posts, select all of them, Bulk Actions -> Edit and choose “do not allow” near Comments before hitting Update posts.
+新規の投稿は **［設定］→［ディスカッション］** "**新しい投稿へのコメントを許可する**" のチェックを外す
+既存の投稿は **［投稿］** で全ての記事を選択、**［一括操作］→［編集］** を適用、**コメント**項目を **［許可しない］**　に変更して、**［更新］** を適用します。
 
 * コメントが必要な場合、だれが投稿できますか？
 
 登録されたユーザだけにコメント登録を許可する場合
 
-［設定］→［ディスカッション］ “Users must be registered and logged in to comment” をチェックします。
+**［設定］→［ディスカッション］** “**ユーザー登録してログインしたユーザーのみコメントをつけられるようにする**” をチェックします。
 
 * コメントの公開前に確認しますか？
 
-チェックボックスにチェックをします。
+"**コメントの手動承認を必須にする**"　をチェックをします。
 
 コメントを公開前に確認しない場合、初期にインストールされている'Akismet'のような、アンチスパムプラグインの利用をお勧めします。
 
-［設定］→［ディスカッション］の全ての設定を慎重に検討する必要があります。
+
+**［設定］→［ディスカッション］** の全ての設定について慎重に検討する必要があります。
 
