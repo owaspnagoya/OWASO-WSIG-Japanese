@@ -9,13 +9,13 @@ WordPress環境のセキュリティを強力に向上させるためには、�
 
 秘密鍵を設定または変更するには、`wp-config.php`ファイルの以下の行を追加、または編集します。（または、他の`define`記述の次に）
 
-    define('AUTH_KEY', 'put your unique phrase here');
+    define('AUTH_KEY', '任意の秘密鍵');
 
-    define('SECURE_AUTH_KEY', 'put your unique phrase here');
+    define('SECURE_AUTH_KEY', '任意の秘密鍵');
 
-    define('LOGGED_IN_KEY', 'put your unique phrase here');
+    define('LOGGED_IN_KEY', '任意の秘密鍵');
 
-    define('NONCE_KEY', 'put your unique phrase here');
+    define('NONCE_KEY', '任意の秘密鍵');
 
 
 秘密鍵を記憶しておく必要はなく、長く、ランダム、そして複雑に作成するか、[オンラインジェネレータ](https://api.wordpress.org/secret-key/1.1/salt/)を利用します。
