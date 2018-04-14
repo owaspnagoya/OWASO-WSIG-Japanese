@@ -6,4 +6,6 @@ license.txtはWordPressの最終更新年をサイトの外部に漏らします
 
 削除対象ファイル:
 
-/WordPressドキュメントルート/readme.html　/WordPressドキュメントルート/license.txt　/WordPressドキュメントルート/wp-admin/install.php files
++ /WordPressドキュメントルート/readme.html
++ /WordPressドキュメントルート/license.txt
++ /WordPressドキュメントルート/wp-admin/install.php files
