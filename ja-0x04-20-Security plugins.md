@@ -6,5 +6,5 @@
 - [BulletProof Security](https://wordpress.org/plugins/bulletproof-security/)
 - [All In One WP Security & Firewall](https://ja.wordpress.org/plugins/all-in-one-wp-security-and-firewall/)
 - [Sucuri Security - Auditing, Malware Scanner and Security Hardening](https://wordpress.org/plugins/sucuri-scanner/)
-- [Acunetix WP Security](https://wordpress.org/plugins/wp-security-scan/)&[Acunetix Secure WordPress](https://wordpress.org/plugins/secure-wordpress/)
+- [Acunetix WP Security](https://wordpress.org/plugins/wp-security-scan/) & [Acunetix Secure WordPress](https://wordpress.org/plugins/secure-wordpress/)
 - [Wordfence Security Plugin](https://en-gb.wordpress.org/plugins/wordfence/)
