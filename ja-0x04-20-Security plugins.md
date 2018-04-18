@@ -4,7 +4,7 @@
 
 - [iThemes Security](https://wordpress.org/plugins/better-wp-security/)（旧称Better Wp Security）は、WordPressサイトを保護するために30を越えるセキュアな機能を提供しています。無料バージョンでは、インストール設定された1つのWordPressで、脆弱箇所の不透明化、検出、防御、バックアップなどを行う事ができます。
 - [BulletProof Security](https://wordpress.org/plugins/bulletproof-security/) 無料バージョンについて
- - .htaccessウェブサイトセキュリティ保護（ファイヤーウォール）
+ + .htaccessウェブサイトセキュリティ保護（ファイヤーウォール）
  - ログインセキュリティ&監視
  - データベースバックアップ
  - データベースバックアップのログ
