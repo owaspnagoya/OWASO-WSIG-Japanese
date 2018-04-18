@@ -13,32 +13,32 @@
   - HTTPエラーログ
   - フロントエンド/バックエンドのメンテナンスモード機能
 - [All In One WP Security & Firewall](https://ja.wordpress.org/plugins/all-in-one-wp-security-and-firewall/)
- - ユーザーアカウント/ログイン/認証セキュリティ
- - データベースとファイルシステムのセキュリティ
- - .htaccessとwp-config.phpのバックアップとリストア
- - ブラックリスト機能
- - ファイヤーウォール機能
- - ブルートフォースアタック防止
- - セキュリティスキャン
+  - ユーザーアカウント/ログイン/認証セキュリティ
+  - データベースとファイルシステムのセキュリティ
+  - .htaccessとwp-config.phpのバックアップとリストア
+  - ブラックリスト機能
+  - ファイヤーウォール機能
+  - ブルートフォースアタック防止
+  - セキュリティスキャン
 - [Sucuri Security - Auditing, Malware Scanner and Security Hardening](https://wordpress.org/plugins/sucuri-scanner/)
- - セキュリティ設定状態確認
- - コアファイル整合性検査
- - マルウェアスキャン
- - ブラックリスト監視
- - ワードプレス堅牢化
- - wp-config.phpの認証キー更新によるPost-Hack対策
- - セキュリティアラート機能
- - ウェブサイトファイヤーウォール（アドオン）
+  - セキュリティ設定状態確認
+  - コアファイル整合性検査
+  - マルウェアスキャン
+  - ブラックリスト監視
+  - ワードプレス堅牢化
+  - wp-config.phpの認証キー更新によるPost-Hack対策
+  - セキュリティアラート機能
+  - ウェブサイトファイヤーウォール（アドオン）
 - [Acunetix WP Security](https://wordpress.org/plugins/wp-security-scan/) & [Acunetix Secure WordPress](https://wordpress.org/plugins/secure-wordpress/) ※このプラグインは数年前から更新が完全に止まっています。
- - ファイルパーミッション確認
- - データベーステーブル接頭辞変更
- - 管理者以外にnotice等を表示しない
- - WordPressバージョン情報メタタグ非表示
+  - ファイルパーミッション確認
+  - データベーステーブル接頭辞変更
+  - 管理者以外にnotice等を表示しない
+  - WordPressバージョン情報メタタグ非表示
 - [Wordfence Security Plugin](https://en-gb.wordpress.org/plugins/wordfence/)
- - WAF機能
- - 脅威の防御フィード（シグネチャ更新：プレミアム版）
- - リアルタイムブロック（プレミアム版）
- - 過剰リクエストやクローラー404の制限
- - ログインセキュリティ（回数制限など）
- - ファイル（コア/テーマ/プラグイン）の整合性監視&スキャン
- - リアルタイム監視（Live Traffic 機能など）
+  - WAF機能
+  - 脅威の防御フィード（シグネチャ更新：プレミアム版）
+  - リアルタイムブロック（プレミアム版）
+  - 過剰リクエストやクローラー404の制限
+  - ログインセキュリティ（回数制限など）
+  - ファイル（コア/テーマ/プラグイン）の整合性監視&スキャン
+  - リアルタイム監視（Live Traffic 機能など）
