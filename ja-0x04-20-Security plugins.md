@@ -18,8 +18,8 @@
   - .htaccessとwp-config.phpのバックアップとリストア
   - ブラックリスト機能
   - ファイヤーウォール機能
-  - ブルートフォースアタック防止
-  - セキュリティスキャン
+  - ブルートフォースアタック防御
+  - セキュリティスキャン
 - [Sucuri Security - Auditing, Malware Scanner and Security Hardening](https://wordpress.org/plugins/sucuri-scanner/)
   - セキュリティ設定状態確認
   - コアファイル整合性検査
