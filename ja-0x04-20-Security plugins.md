@@ -31,11 +31,11 @@
   - ウェブサイトファイヤーウォール（アドオン）
 - [Acunetix WP Security](https://wordpress.org/plugins/wp-security-scan/) & [Acunetix Secure WordPress](https://wordpress.org/plugins/secure-wordpress/) ※このプラグインは数年前から更新が完全に止まっています。
   - パスワード機能
-  - ファイルパーミッション確認
-  - データベースセキュリティ
-  - 管理者以外にnotice等を表示しない
-  - WordPressダッシュボード保護/セキュリティ
-  - WordPressバージョン情報などメタタグhtml除去
+  - ファイルパーミッション確認
+  - データベースセキュリティ
+  - 管理者以外にnotice等を表示しない
+  - WordPressダッシュボード保護/セキュリティ
+  - WordPressバージョン情報などメタタグhtml除去
 - [Wordfence Security Plugin](https://en-gb.wordpress.org/plugins/wordfence/)
   - WAF機能
   - 脅威の防御フィード（シグネチャ更新：プレミアム版）
