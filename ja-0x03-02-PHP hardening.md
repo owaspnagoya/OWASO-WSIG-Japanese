@@ -9,10 +9,10 @@
 * マジック引用符を無効にする
 * ファイルシステムへのPHPアクセスを制限する
 * DoSから防御する
-** POST size を制御する
-** スクリプtの実行時間を制限する
-** メモリ使用量を制限する
-* [http：//www.suhosin.org/stories/index.html]Suhoshinのセキュリティ拡張機能を実装することを検討してください。
+  * POST size を制御する
+  * スクリプtの実行時間を制限する
+  * メモリ使用量を制限する
+* [http：//www.suhosin.org/stories/index.html]Suhoshinのセキュリティ拡張機能を実装することを検討する
 * Consider implementing the Suhoshin security extension
 * 使用しているPHPバージョンを隠す
 * .php拡張を隠す
