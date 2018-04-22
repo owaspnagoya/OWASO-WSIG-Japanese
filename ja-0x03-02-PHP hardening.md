@@ -1,20 +1,17 @@
 # PHP hardening
 * 常に最新にする
-
-
-* Update regularly
-* Don’t install PHP as a CGI binary
-* Disable unnecessary PHP modules
-* Disable unused potentially dangerous PHP functions (good examples: ''exec'',''passthru'',''shell_exec'',''system'', etc.)
-* Log errors internally
-* Disable verbose error reporting on the client side
-* Turn off remote code execution (if it’s not needed; the core WordPress doesn’t need this functionality)
-* Disable magic quotes
-* Limit PHP access to file system
-* Protect from DoS
-** Control POST size
-** Limit script time execution
-** Limit memory usage
-* Consider implementing the [http://www.suhosin.org/stories/index.html Suhoshin security extension]
-* Hide the version of PHP in use
-* Hide the .php extension
+* CGI BinaryのPHPをインストールしない
+* 不要なPHPモジュールを無効にする
+* 未使用の危険なPHP関数を無効にする（良い例： '' exec ''、 '' passthru ''、 '' shell_exec ''、 '' system ''など）
+* 内部エラーを記録する
+* クライアント側で冗長なエラー報告を無効にする
+* リモートコードの実行を無効にする（必要がない場合、WordPressのコアにはこの機能は必要ありません）
+* マジック引用符を無効にする
+* ファイルシステムへのPHPアクセスを制限する
+* DoSから防御する
+** POST size を制御する
+** スクリプtの実行時間を制限する
+** メモリ使用量を制限する
+* [http：//www.suhosin.org/stories/index.htmlスホシンのセキュリティ拡張機能]を実装することを検討してください。
+* 使用しているPHPバージョンを隠す
+* .php拡張を隠す
