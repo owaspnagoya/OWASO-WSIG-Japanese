@@ -12,6 +12,7 @@
 ** POST size を制御する
 ** スクリプtの実行時間を制限する
 ** メモリ使用量を制限する
-* [http：//www.suhosin.org/stories/index.htmlスホシンのセキュリティ拡張機能]を実装することを検討してください。
+* [http：//www.suhosin.org/stories/index.html]Suhoshinのセキュリティ拡張機能を実装することを検討してください。
+* Consider implementing the Suhoshin security extension
 * 使用しているPHPバージョンを隠す
 * .php拡張を隠す
