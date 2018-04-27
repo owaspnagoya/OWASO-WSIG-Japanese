@@ -9,16 +9,14 @@
 - chrootによるrootサービス隠蔽の設計（指定ディレクトリより上のディレクトリに進めない様に設計）
 - ネットワーク通信の暗号化 (WEBサーバーとDBサーバーの分離を行う場合、必須)
 - rawデバイスデータベース（ファイルシステムを入れる前のディスク）暗号化
-  - Redundant if disk encryption is in place at the OS layer
+  - Redundant if disk encryption is in place at the OS layer
   - However, by using ''dmcrypt'', one can generate an extra layer of encryption
-- Backup encryption
-- Configuration
-  - Connectivity: maximum number of concurrent connections and related settings
-  - Logging
-  - Access control and privilege management
-  - Set up root password
-  - Rename root account
-  - Delete unused users and databases
-  - Remove installation history
-
-A PHP security checker is available [https://github.com/sektioneins/pcc here]. This is a one-page php file designed to analyze PHP configuration and rank the findings based on severity.
+- バックアップデータの暗号化
+- MySQL設定
+  - 同時接続数の上限設定
+  - ログ設定
+  - アクセス権限ユーザー権限管理
+  - rootパスワード設定
+  - rootアカウントのリネーム
+  - 未使用ユーザーやデータベースの削除
+  - インストール履歴の削除
