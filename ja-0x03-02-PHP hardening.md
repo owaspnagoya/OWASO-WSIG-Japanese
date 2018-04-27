@@ -1,4 +1,4 @@
-# PHP hardening
+# PHP堅牢化
 * 常に最新にする
 * CGI BinaryのPHPをインストールしない
 * 不要なPHPモジュールを無効にする
