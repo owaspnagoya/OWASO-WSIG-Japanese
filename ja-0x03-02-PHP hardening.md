@@ -15,4 +15,6 @@
 * [Suhoshinのセキュリティ拡張機能](http://www.suhosin.org/stories/index.html)を実装することを検討する
 * Consider implementing the Suhoshin security extension
 * 使用しているPHPバージョンを隠す
-* .php拡張を隠す
+* .php拡張子を隠す
+
+phpセキュリティチェッカーを使う事ができます [https://github.com/sektioneins/pcc here]. これはphpの解析を行い、緊急度の高さに応じた（脆弱性の）ランク付けを行うために作られた1枚のphpファイルです。
