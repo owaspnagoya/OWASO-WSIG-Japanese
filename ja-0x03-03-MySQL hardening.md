@@ -1,4 +1,4 @@
-
+# MySQL堅牢化
 == MySQL hardening ==
 There is an entire [https://www.owasp.org/index.php/OWASP_Backend_Security_Project_MySQL_Hardening OWASP project dedicated to MySQL hardening]. The main action items are:
 
