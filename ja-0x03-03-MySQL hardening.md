@@ -9,7 +9,7 @@
 - chrootによるrootサービス隠蔽の設計（指定ディレクトリより上のディレクトリに進めない様に設計）
 - ネットワーク通信の暗号化 (WEBサーバーとDBサーバーの分離を行う場合、必須)
 - rawデバイスデータベース（ファイルシステムを入れる前のディスク）暗号化
-  - Redundant if disk encryption is in place at the OS layer
+  - Redundant if disk encryption is in place at the OS layer
   - However, by using ''dmcrypt'', one can generate an extra layer of encryption
 - バックアップデータの暗号化
 - MySQL設定
