@@ -1,5 +1,5 @@
 # PHP堅牢化
-* 常に最新にする
+* 定期的にアップデートする
 * CGI BinaryのPHPをインストールしない
 * 不要なPHPモジュールを無効にする
 * 未使用の危険なPHP関数を無効にする（良い例： '' exec ''、 '' passthru ''、 '' shell_exec ''、 '' system ''など）
