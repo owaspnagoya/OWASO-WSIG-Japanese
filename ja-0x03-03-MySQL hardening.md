@@ -6,7 +6,7 @@
 - 定期的な更新
 - リモートアクセスの無効化、もしくは制限
 - ファイルシステムのアクセス制限とACLs（Access Control Lists）の設定
-- chrootによるrootサービス隠蔽の設計（指定ディレクトリより上のディレクトリに進めない様に設計）
+- chrootによるrootサービス隠蔽の設計（指定ディレクトリより上のディレクトリに移動できない様に設計）
 - ネットワーク通信の暗号化 (WEBサーバーとDBサーバーの分離を行う場合、必須)
 - rawデバイスデータベース（ファイルシステムを入れる前のディスク）暗号化
   - Redundant if disk encryption is in place at the OS layer
